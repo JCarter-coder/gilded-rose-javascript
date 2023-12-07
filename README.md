@@ -67,5 +67,5 @@ Source: https://github.com/professor/GildedRose
 
 
 | **Item Name** | **Sell In** | **Quality** | **Limits** |
-|:----------|:--------:|"---------:|:--------|
-| x  | x  | x  | x  |
+|:--------------|:-----------:|:-----------:|:-----------|
+| Item  | -1  | -1  | none  |
