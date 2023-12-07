@@ -66,6 +66,10 @@ That's it. Good luck, traveler!
 Source: https://github.com/professor/GildedRose
 
 
+**When updateQuality() is invoked the following actions are taken to an item:**
+
 | **Item Name** | **Sell In** | **Quality** | **Limits** |
 |:--------------|:-----------:|:-----------:|:-----------|
-| Item  | -1  | -1  | none  |
+| Item  | -1  | -1  | $quality /< 0$  |
+| (When sellIn is < 0) | **< 0** | $\frac{1}{2}Quality$ | none |
+|
