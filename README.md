@@ -70,6 +70,6 @@ Source: https://github.com/professor/GildedRose
 
 | **Item Name** | **Sell In** | **Quality** | **Limits** |
 |:--------------|:-----------:|:-----------:|:-----------|
-| Item  | -1  | -1  | $quality /< 0$  |
-| (When sellIn is < 0) | **< 0** | $\frac{1}{2}Quality$ | none |
+| *Item*  | -1  | -1  | $Quality \neq 0$  |
+| - | *< 0* | $\frac{1}{2}Quality$ | none |
 |
