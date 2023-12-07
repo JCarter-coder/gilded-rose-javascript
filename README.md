@@ -77,8 +77,6 @@ Source: https://github.com/professor/GildedRose
 | *Back Stage Passes* | Sell In $\leq 10$ |  | +2 | |
 | *Back Stage Passes* | Sell In $\leq 5$ |  | +3 | |
 | *Back Stage Passes* | Sell In $\leq 0$ |  | 0 | |
-|:------:|
-| **New Items** |
-|:--- |:--- |:---: |:---: |:--- |
+| **New Items** | | | | |
 | *Conjured Items* | | -1 | -2 | $Quality \neq 0$ |
 
