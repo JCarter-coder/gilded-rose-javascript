@@ -68,8 +68,12 @@ Source: https://github.com/professor/GildedRose
 
 **When updateQuality() is invoked the following actions are taken to an item:**
 
-| **Item Name** | **Sell In** | **Quality** | **Limits** |
-|:--------------|:-----------:|:-----------:|:-----------|
-| *Item*  | -1  | -1  | $Quality \neq 0$  |
-| - | *< 0* | $\frac{1}{2}Quality$ | none |
-|
+| **Item Name** | **If...** | **Sell In** | **Quality** | **Limits** |
+|:--------------|:----------|:-----------:|:-----------:|:-----------|
+| *Item*        |           | -1          | -1          | $Quality \neq 0$  |
+| -        | sell In is < 0 |             | $\frac{1}{2}Quality$ | none |
+| *Aged Brie*| | -1 | +1 | $Quality \leq 50$ |
+| *Back Stage Passes* | $Sell In \leq 10$ | +2 | |
+| *Back Stage Passes* | $Sell In \leq 5$ | +3 | |
+| *Back Stage Passes* | $Sell In \leq 0$ | 0 | |
+
