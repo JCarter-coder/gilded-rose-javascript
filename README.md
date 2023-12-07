@@ -64,3 +64,8 @@ Once your refactoring is complete, write a test to verify the new feature (makin
 That's it. Good luck, traveler!
 
 Source: https://github.com/professor/GildedRose
+
+
+| **Item Name** | **Sell In** | **Quality** | **Limits** |
+|:----------|:--------:|"---------:|:--------|
+| x  | x  | x  | x  |
