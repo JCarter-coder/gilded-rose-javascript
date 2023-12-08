@@ -80,5 +80,5 @@ Source: https://github.com/professor/GildedRose
 | *Back Stage Passes* | Sell In $\leq 0$ | -1 | $= 0$ | |
 | **New Items** | | | | |
 | *Conjured Items* | | -1 | -2 | Quality $\neq 0$ |
-| | sell In is $< 0$| -1 | $-2 x$ Normal Items | Quality $\neq 0$ 
+| | sell In is $< 0$| -1 | $-2 \times$ Normal Items | Quality $\neq 0$ |
 
