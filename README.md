@@ -66,17 +66,19 @@ That's it. Good luck, traveler!
 Source: https://github.com/professor/GildedRose
 
 
-**When updateQuality() is invoked the following actions are taken to an item:**
+
+**When updateQuality() is invoked the following actions are taken on an item:**
 
 | **Item Name** | **If...** | **Sell In** | **Quality** | **Limits** |
 |:--------------|:----------|:-----------:|:-----------:|:-----------|
-| *Normal Items* |          | -1          | -1          | $Quality \neq 0$  |
-| -        | sell In is < 0 |             | $\frac{1}{2}Quality$ | none |
+| **Normal Items** |        | -1          | -1          | Quality $\neq 0$  |
+| -        | sell In is < 0 | -1          | $\frac{1}{2}$Quality | Quality $\neq 0$ |
 | *Aged Brie*| | -1 | +1 | $Quality \leq 50$ |
-| *Salfuras...* | | -1 | 0 | $Quality = 80$
-| *Back Stage Passes* | Sell In $\leq 10$ |  | +2 | |
-| *Back Stage Passes* | Sell In $\leq 5$ |  | +3 | |
-| *Back Stage Passes* | Sell In $\leq 0$ |  | 0 | |
+| *Salfuras...* | | 0 | 0 | $Quality = 80$
+| *Back Stage Passes* | Sell In $\leq 10$ | -1 | +2 | |
+| *Back Stage Passes* | Sell In $\leq 5$ | -1 | +3 | |
+| *Back Stage Passes* | Sell In $\leq 0$ | -1 | $= 0$ | |
 | **New Items** | | | | |
 | *Conjured Items* | | -1 | -2 | $Quality \neq 0$ |
+| | sell In is $< 0$| -1 | $\frac{1}{2}$Quality | Quality $\neq 0$ 
 
